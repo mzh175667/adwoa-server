@@ -1,0 +1,40 @@
+{
+  "name": "adwoa",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -r esm server.js",
+    "start": "node -r esm server.js"
+  },
+  "author": "Ahmed Ali",
+  "license": "MIT",
+  "engines": {
+    "node": "16.10.0"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.1",
+    "babel-jest": "^27.5.1",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "googleapis": "^95.0.0",
+    "i": "^0.3.7",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.14",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.7.2",
+    "path": "^0.12.7",
+    "react-scripts": "^5.0.0",
+    "socket.io": "^4.4.1",
+    "stripe": "^8.219.0",
+    "yarn": "^1.22.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
